@@ -1,7 +1,12 @@
 import "./App.css";
+import { QRCode } from "./component";
 
 function App() {
-  return <>sss</>;
+  return (
+    <>
+      <QRCode />
+    </>
+  );
 }
 
 export default App;
