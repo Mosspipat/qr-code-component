@@ -14,23 +14,28 @@ const QRCode = () => {
       >
         <div
           style={{
-            width: "320px",
+            maxWidth: "320px",
             margin: "auto",
           }}
         >
           <img
-            style={{ borderRadius: "18px" }}
+            style={{ borderRadius: "18px", maxWidth: "100%" }}
             alt="qrCode"
             src="../src/assets/image-qr-code.png"
-            width="320px"
           />
 
-          <h1 style={{ fontSize: "24px" }}>
+          <h1
+            style={{
+              fontSize: "1.6em",
+              margin: "auto",
+              padding: "20px 0px 0px 0px",
+            }}
+          >
             Improve your front-end skills by building projects
           </h1>
           <p
             style={{
-              fontSize: "20px",
+              fontSize: "1.2em",
               color: "slategrey",
               fontStyle: "normal",
             }}
