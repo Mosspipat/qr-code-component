@@ -1,3 +1,5 @@
+import QrCodeImage from "../../assets/image-qr-code.png";
+
 const QRCode = () => {
   return (
     <>
@@ -21,7 +23,7 @@ const QRCode = () => {
           <img
             style={{ borderRadius: "18px", maxWidth: "100%" }}
             alt="qrCode"
-            src="../src/assets/image-qr-code.png"
+            src={QrCodeImage}
           />
 
           <div style={{ padding: "0px 1em" }}>
