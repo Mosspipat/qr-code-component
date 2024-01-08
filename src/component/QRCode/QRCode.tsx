@@ -31,6 +31,7 @@ const QRCode = () => {
               style={{
                 margin: "auto",
                 padding: "20px 0px 0px 0px",
+                color: "black",
               }}
             >
               Improve your front-end skills by building projects
